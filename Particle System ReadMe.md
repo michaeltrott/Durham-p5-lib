@@ -46,6 +46,9 @@ The addnewParticle function is used solely to create the particle objects and al
 draw():
 The draw function is used for setting the velocities, force and acceleration based off of where each other particle is in comparison to others. It also then calls the draw function in the Particle class.	
 
+# Planned Features:
+ - I did try to add a feature that would change the shape of the particle to a rectangle, however I couldn't get it to work properly, as I placed an if statement in the draw function originally, to check if a variable "Shape" was ellipse or rectangle and would draw that shape instead. However the Shape variable would change, in another function, it wouldn't register the new change in the for loop. 
+
 # Licensing:
 "Wobbly Swarm" by Konstantin Makhmutov
 http://www.openprocessing.org/sketch/492096
